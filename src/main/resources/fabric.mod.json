@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "improvedlashingpotato",
+  "version": "${version}",
+  "name": "ImprovedLashingPotato",
+  "description": "A mod that gives players the ability pull and be pulled towards mobs with the lashing potato. ",
+  "authors": [
+    "HyperPigeon"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/improvedlashingpotato/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.hyper_pigeon.improvedlashingpotato.client.ImprovedLashingPotatoClient"
+    ],
+    "main": [
+      "net.hyper_pigeon.improvedlashingpotato.ImprovedLashingPotato"
+    ]
+  },
+  "mixins": [
+    "improvedlashingpotato.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "fabric": "*",
+    "minecraft": "1.20.5-alpha.24.12.potato"
+  }
+}

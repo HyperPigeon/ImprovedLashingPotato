@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hyper_pigeon.improvedlashingpotato.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LashingPotatoProjectileMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
