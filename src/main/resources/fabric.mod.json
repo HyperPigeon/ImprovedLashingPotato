@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "improvedlashingpotato",
   "version": "${version}",
-  "name": "ImprovedLashingPotato",
+  "name": "Improved Lashing Potato",
   "description": "A mod that gives players the ability pull and be pulled towards mobs with the lashing potato. ",
   "authors": [
     "HyperPigeon"
